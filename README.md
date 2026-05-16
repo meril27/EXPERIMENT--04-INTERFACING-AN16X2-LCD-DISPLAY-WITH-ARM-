@@ -175,7 +175,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 ## STM 32 CUBE PROGRAM :
 
 ### lcd.h
-```
+```c
 /*
  * lcd.h
  *
@@ -275,7 +275,7 @@ void Lcd_clear(Lcd_HandleTypeDef * lcd);
 #endif /* LCD_H_ */
 ```
 ### lcd.c
-```
+```c
 
 // *  Created on: 10/04/2023
  //
@@ -446,7 +446,7 @@ void lcd_write(Lcd_HandleTypeDef * lcd, uint8_t data, uint8_t len)
 }
 ```
 ### main.c
-```
+```c
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
